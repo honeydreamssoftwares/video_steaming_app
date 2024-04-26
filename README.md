@@ -37,7 +37,7 @@ Ensure that the generated `.ts` files and `index.m3u8` file are located in the `
 To run the server, navigate to the project directory in your terminal and execute the following command:
 
 ```bash
-python app.py
+python ffpmeg.py
 ```
 
 This command will start the Flask server on `localhost` at port `5000`.
