@@ -26,7 +26,7 @@ Before running the server, you need to prepare your video files in HLS format. Y
 ffmpeg -i video/a.mp4 -profile:v baseline -level 3.0 -s 640x360 -start_number 0 -hls_time 10 -hls_list_size 0 -f hls video/index.m3u8
 ```
 
-Replace `your_video_file.mp4` with the path to your video file. This command will create a series of `.ts` video segments and an `index.m3u8` playlist file inside the `video` directory of your project.
+This command will create a series of `.ts` video segments and an `index.m3u8` playlist file inside the `video` directory of your project.
 
 ### Step 3: Place Video Content
 
